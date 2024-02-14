@@ -6,7 +6,7 @@ repository: https://github.com/sendbird/sendbird-chat-sdk-flutter
 documentation: https://sendbird.com/docs/chat/sdk/v4/flutter/getting-started/send-first-message
 
 environment:
-  sdk: '>=2.19.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: '>=3.7.0'
 
 platforms:
@@ -18,12 +18,12 @@ dependencies:
   flutter:
     sdk: flutter
   collection: ^1.17.0
-  uuid: ^3.0.7
+  uuid: ^4.3.3
   json_annotation: ^4.8.1
   encrypt: ^5.0.1
   shared_preferences: ^2.2.2
-  http: ^0.13.6
-  logger: ^1.4.0
+  http: ^1.2.0
+  logger: ^2.0.2+1
   mime: ^1.0.4
   connectivity_plus: ^5.0.1
   http_parser: ^4.0.2
